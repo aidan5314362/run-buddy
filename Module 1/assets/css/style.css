@@ -104,7 +104,7 @@ section {
 
 .hero-form {
   border: 3px solid #024e76;
-  background-color: #fce138;
+  background-color: rgba(255,255,56,0.8);
   padding: 20px;
   color: #024e76;
   width: 40%;
@@ -364,11 +364,7 @@ section {
   border-radius: 15px;
 }
 
-.contact-form input {
-  background-color: rgba(255,255,255,1);
-}
-
-.contact-form textarea {
+.contact-form textarea, .contact-form input {
   border: 1px solid #024e76;
   display: block;
   padding: 7px 15px;
@@ -377,9 +373,11 @@ section {
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
+  border-radius: 10px;
+  background-color: rgba(255,255,255,0.8);
 }
 
-.contact-form textarea:focus{
+.contact-form textarea:focus, .contact-form:focus{
   background-color: rgba(255,255,255,1);
   outline:none;
 }
