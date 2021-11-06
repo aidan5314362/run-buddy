@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #fce138;
+  --secondary-color: #024e76;
+  --tertiary-color: #39a6b2;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -193,7 +199,6 @@ section {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #39a6b2;
 }
 
 .step:last-child {
@@ -227,7 +232,7 @@ section {
 }
 
 .step-text p {
-  color: #39a6b2;
+  color: var(--tertiary-color);
   font-size: 18px;
 }
 
@@ -589,10 +594,4 @@ header nav ul li a {
 .checkbox-wrapper input:checked + label::after, 
 .radio-wrapper input:checked + label::after {
   content: "";
-}
-
-:root {
-  --pimary-color: #fce138;
-  --secondary-color: #024e76;
-  --tertiary-color: #39a6b2;
 }
